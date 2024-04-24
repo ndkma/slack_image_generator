@@ -29,4 +29,12 @@ Add the following scopes:
 Click on "Generate"  
 Now there should be a token that you can copy and paste into your .env file as the SLACK_APP_TOKEN  
 It should look something like SLACK_APP_TOKEN="xapp-a-bbbbbbbbbbb-ccccccccccccc-ddddddddddddddddddddddddddddddddddddd"  
-Click on "Done"
+Click on "Done"  
+
+In the sidebar on the left, under "Settings", click on "Socket Mode"  
+Make sure Enable Socket Mode has been toggled on  
+
+In the sidebar on the left, under "Features", click on "Interactivity and Shortcuts"  
+Make sure Interactivity has been toggled on  
+
+In the sidebar on the left, under "Features", click on "Event Subscriptions"  
