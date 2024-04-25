@@ -52,3 +52,9 @@
 1. In the sidebar on the left, under **"Features"**, click on **"App Home"**.
 2. Under **"Show Tabs"**, make sure **"Messages Tab"** has been toggled **"on"**.
 3. Check the box for **"Allow users to send Slash commands and messages from the messages tab"**.
+
+## Adding the App to a channel
+
+1. In the channel you want the bot to reside in, simply mention the bot by typing **"@bot_name"** and press enter.
+2. An alternative way is to right click a channel, click on **"Settings"** -> **"Integrations"** -> **"Add Apps"**.
+3. You should now be able to interact with the app via **"@bot_name"** mentions.
