@@ -1,3 +1,9 @@
+## Creating the Slack App in your workspace
+
+1. Navigate to https://api.slack.com/apps.
+2. Click on **"Create New App"** and select **"From Scratch"**.
+3. Enter the name for your app and select the workspace you want to install it to.
+
 ## Setting Up OAuth and Permissions
 
 1. In the sidebar on the left, under **"Features"**, click on **"OAuth and Permissions"**.
