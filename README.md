@@ -14,7 +14,9 @@
    - `chat:write.public`
    - `im:history`
 4. Scroll up a bit to **"OAuth Tokens for Your Workspace"** and click on **"Install to Workspace"**.
-5. Copy the **"Bot User OAuth Token"** and paste it into your `.env` file as the `SLACK_BOT_TOKEN`. It should look something like: `SLACK_BOT_TOKEN="xoxb-aaaaaaaaaaaaaa-bbbbbbbbbbbbb-ccccccccccccccccccccccccc"`.
+5. Click on **"Allow"** on the subsequent screen.
+6. You will be returned to the **"OAuth and Permissions"** page.
+7. Copy the **"Bot User OAuth Token"** and paste it into your `.env` file as the `SLACK_BOT_TOKEN`. It should look something like: `SLACK_BOT_TOKEN="xoxb-aaaaaaaaaaaaaa-bbbbbbbbbbbbb-ccccccccccccccccccccccccc"`.
 
 ## Setting Up App-Level Tokens and obtaining App Token
 
