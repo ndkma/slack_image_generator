@@ -36,8 +36,8 @@
 9. Your .env file should now have 3 keys inside, and look something like:
     
    `TOGETHER_API_KEY="yourtogetheraikeyhere"`  
-   `SLACK_BOT_TOKEN="xoxb-aaaaa-bbbbb-ccccc"`
-   `SLACK_APP_TOKEN="xapp-a-bbbbb-ccccc-ddddd"`
+   `SLACK_BOT_TOKEN="xoxb-aaaaa-bbbbb-ccccc"`  
+   `SLACK_APP_TOKEN="xapp-a-bbbbb-ccccc-ddddd"`  
    
 ## Enabling Socket Mode
 
