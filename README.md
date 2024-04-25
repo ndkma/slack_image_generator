@@ -1,7 +1,7 @@
 ## Generating a Together.AI API key
 
 1. Before creating the Slack Apps, it is necessary to obtain a **Together.AI API key**. You will need to create an account with **Together.AI** and they will provide an API key with US$25.00 worth of credits for free.  
-2. This API key needs to be copied and pasted into the `.env` file in the repository, along with the other 2 Slack API keys that will be generated during the course of this guide. This first key should be entered like this: `TOGETHER_API_KEY="yourkeypastedhere"`  
+2. This API key needs to be copied and pasted into the `.env` file in the repository, along with the other 2 Slack API keys that will be generated during the course of this guide. This first key should be entered like this: `TOGETHER_API_KEY="yourtogetheraikeyhere"`  
 
 ## Creating the Slack App in your workspace
 
@@ -21,7 +21,7 @@
 4. Scroll up a bit to **"OAuth Tokens for Your Workspace"** and click on **"Install to Workspace"**.
 5. Click on **"Allow"** on the subsequent screen.
 6. You will be returned to the **"OAuth and Permissions"** page.
-7. Copy the **"Bot User OAuth Token"** and paste it into your `.env` file as the `SLACK_BOT_TOKEN`. It should look something like: `SLACK_BOT_TOKEN="xoxb-aaaaaaaaaaaaaa-bbbbbbbbbbbbb-ccccccccccccccccccccccccc"`.
+7. Copy the **"Bot User OAuth Token"** and paste it into your `.env` file as the `SLACK_BOT_TOKEN`. It should look something like: `SLACK_BOT_TOKEN="xoxb-aaaaa-bbbbb-ccccc"`.
 
 ## Setting Up App-Level Tokens and obtaining App Token
 
@@ -31,13 +31,13 @@
 4. Name the token anything, for example, **"App Token"**.
 5. Click on **"Add Scope"** and add the following scope: `connections:write`.
 6. Click on **"Generate"**.
-7. Copy the generated token and paste it into your `.env` file as the `SLACK_APP_TOKEN`. It should look something like: `SLACK_APP_TOKEN="xapp-a-bbbbbbbbbbb-ccccccccccccc-ddddddddddddddddddddddddddddddddddddd"`.
+7. Copy the generated token and paste it into your `.env` file as the `SLACK_APP_TOKEN`. It should look something like: `SLACK_APP_TOKEN="xapp-a-bbbbb-ccccc-ddddd"`.
 8. Click on **"Done"**.
 9. Your .env file should now have 3 keys inside, and look something like:
     
-   `TOGETHER_API_KEY="1fxcaf2b3c4drw5e6f7g8haafad4dn5o6p7q8raaaaaabbbbbb11111111"`  
-   `SLACK_BOT_TOKEN="xoxb-aaaaaaaaaaaaaa-bbbbbbbbbbbbb-ccccccccccccccccccccccccc"`  
-   `SLACK_APP_TOKEN="xapp-a-bbbbbbbbbbb-ccccccccccccc-ddddddddddddddddddddddddddddddddddddd"`  
+   `TOGETHER_API_KEY="yourtogetheraikeyhere"`  
+   `SLACK_BOT_TOKEN="xoxb-aaaaa-bbbbb-ccccc"`
+   `SLACK_APP_TOKEN="xapp-a-bbbbb-ccccc-ddddd"`
    
 ## Enabling Socket Mode
 
