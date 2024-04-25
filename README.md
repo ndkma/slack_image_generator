@@ -1,3 +1,8 @@
+## Generating a Together.AI API key
+
+1. Before creating the Slack Apps, it is necessary to obtain a **Together.AI API key**. You will need to create an account with **Together.AI** and they will provide an API key with US$25.00 worth of credits for free.  
+2. This API key needs to be copied and pasted into the `.env` file in the repository, along with the other 2 Slack API keys that will be generated during the course of this guide. This first key should be entered like this: `TOGETHER_API_KEY="yourkeypastedhere"`  
+
 ## Creating the Slack App in your workspace
 
 1. Navigate to https://api.slack.com/apps.
