@@ -33,7 +33,12 @@
 6. Click on **"Generate"**.
 7. Copy the generated token and paste it into your `.env` file as the `SLACK_APP_TOKEN`. It should look something like: `SLACK_APP_TOKEN="xapp-a-bbbbbbbbbbb-ccccccccccccc-ddddddddddddddddddddddddddddddddddddd"`.
 8. Click on **"Done"**.
-
+9. Your .env file should now have 3 keys inside, and look something like:
+    
+   `TOGETHER_API_KEY="1fxcaf2b3c4drw5e6f7g8haafad4dn5o6p7q8raaaaaabbbbbb11111111"`  
+   `SLACK_BOT_TOKEN="xoxb-aaaaaaaaaaaaaa-bbbbbbbbbbbbb-ccccccccccccccccccccccccc"`  
+   `SLACK_APP_TOKEN="xapp-a-bbbbbbbbbbb-ccccccccccccc-ddddddddddddddddddddddddddddddddddddd"`  
+   
 ## Enabling Socket Mode
 
 1. In the sidebar on the left, under **"Settings"**, click on **"Socket Mode"**.
