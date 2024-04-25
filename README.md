@@ -4,7 +4,7 @@
 2. Click on **"Create New App"** and select **"From Scratch"**.
 3. Enter the name for your app and select the workspace you want to install it to.
 
-## Setting Up OAuth and Permissions
+## Setting Up OAuth and Permissions and obtaining Bot Token
 
 1. In the sidebar on the left, under **"Features"**, click on **"OAuth and Permissions"**.
 2. Scroll down to **"Scopes"** and under **"Bot Token Scopes"**, click on **"Add an OAuth Scope"**.
@@ -16,7 +16,7 @@
 4. Scroll up a bit to **"OAuth Tokens for Your Workspace"** and click on **"Install to Workspace"**.
 5. Copy the **"Bot User OAuth Token"** and paste it into your `.env` file as the `SLACK_BOT_TOKEN`. It should look something like: `SLACK_BOT_TOKEN="xoxb-aaaaaaaaaaaaaa-bbbbbbbbbbbbb-ccccccccccccccccccccccccc"`.
 
-## Setting Up App-Level Tokens
+## Setting Up App-Level Tokens and obtaining App Token
 
 1. In the sidebar on the left, under **"Settings"**, click on **"Basic Information"**.
 2. Scroll down to **"App-Level Tokens"**.
